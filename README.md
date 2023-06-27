@@ -6,8 +6,6 @@
   <img alt="Github language count" src="https://img.shields.io/github/languages/count/SimplySmart-IT/plg_system_sismosflexmodules?color=00A98F">
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/SimplySmart-IT/plg_system_sismosflexmodules?color=00A98F">
-
-  <img alt="License" src="https://img.shields.io/github/license/SimplySmart-IT/plg_system_sismosflexmodules?color=00A98F">
 </p>
 
 <!-- Status -->
@@ -20,9 +18,9 @@
 
 <p align="center">
   <a href="#sparkles-about">About</a> &#xa0; | &#xa0;
-  <a href="#mag_right-technologies">Technologies</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Let's start</a> &#xa0; | &#xa0;
+  <a href="#mag_right-technologies">Technologies</a> &#xa0; | &#xa0;
   <a href="#memo-license">License</a> &#xa0; | &#xa0;
   <a href="https://github.com/SimplySmart-IT" target="_blank">Author</a>
 </p>
@@ -31,10 +29,10 @@
 
 ## :sparkles: About ##
 
-**This Plugin is useful to make the positioning for your modules more flexible in your Joomlab4 CMS.**
+**This Plugin is useful to make the positioning for your modules more flexible in your Joomla 4 CMS.**
 
-:heavy_check_mark: Clone module in different additional positions on the same site\
-:heavy_check_mark: Switch position dynamically only for a special template with an alias in your templateDetails.xml\
+:heavy_check_mark: clone module in different additional positions on the same site\
+:heavy_check_mark: switch position dynamically only for a special template with an alias in your templateDetails.xml\
 
 &#xa0;
 
@@ -63,7 +61,7 @@ Add an alias into your position.
 
 ![Screenshot Plugin ](docs/PluginsSystemSismosFlexModule_Screenshot2.png)
 
-In this example all modules that have set the setting position: "sidebar
+In this example all modules that have set the setting position: "sidebar-right" directyl in the module configuration will dynamically change the position to "top-a" if this template is active.
 
 ### Step 3 - Show a module on multiple positions on the same site without copying the module
 

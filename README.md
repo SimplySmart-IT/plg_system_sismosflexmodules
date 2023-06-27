@@ -4,8 +4,6 @@
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/SimplySmart-IT/plg_system_sismosflexmodules?color=00A98F">
 
   <img alt="Github language count" src="https://img.shields.io/github/languages/count/SimplySmart-IT/plg_system_sismosflexmodules?color=00A98F">
-
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/SimplySmart-IT/plg_system_sismosflexmodules?color=00A98F">
 </p>
 
 <!-- Status -->
@@ -91,7 +89,7 @@ The following tools were used to create this this project:
 
 ## :memo: License ##
 
-This project is under GNU General Public License version 2 or later;. For more details, see the [LICENSE](LICENSE.md) file.
+This project is under GNU General Public License version 3 or later;. For more details, see the [LICENSE](LICENSE.md) file.
 
 Made with :heart: by <a href="https://github.com/SimplySmart-IT" target="_blank">Martina Scholz</a>
 

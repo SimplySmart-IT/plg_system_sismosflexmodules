@@ -24,6 +24,6 @@
 	</languages>
 	<!-- Update servers -->
 	<updateservers>
-		<server type="extension" priority="1" name="SimplySmart Update Site GitHub"><![CDATA[https://github.com/SimplySmart-IT/plg_system_sismosflexmodules/update.xml]]></server>
+		<server type="extension" priority="1" name="SimplySmart Update Site GitHub"><![CDATA[https://raw.githubusercontent.com/SimplySmart-IT/plg_system_sismosflexmodules/main/update.xml]]></server>
 	</updateservers>
 </extension>

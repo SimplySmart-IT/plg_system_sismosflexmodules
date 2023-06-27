@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="4.0" group="system" method="upgrade">
+	<name>plg_system_sismosflexmodules</name>
+	<author>Martina Scholz</author>
+	<creationDate>2023-06</creationDate>
+	<copyright>(C) 2023 Martina Scholz, SimplySmart-IT</copyright>
+	<license>GNU General Public License version 3 or later; see LICENSE.txt</license>
+	<authorEmail>martina@simplysmart-it.de</authorEmail>
+	<authorUrl>https://simplysmart-it.de</authorUrl>
+	<version>1.0.0</version>
+	<description>PLG_SYSTEM_SISMOSFLEXMODULES_XML_DESCRIPTION</description>
+	<namespace path="src">Joomla\Plugin\System\Sismosflexmodules</namespace>
+    <scriptfile>script.php</scriptfile>
+	<files>
+		<folder>layouts</folder>
+		<folder plugin="sismosflexmodules">services</folder>
+		<folder>src</folder>
+	</files>
+	<languages folder="language" destination="plg_system_sismosflexmodules">
+		<language tag="en-GB">en-GB/plg_system_sismosflexmodules.ini</language>
+		<language tag="en-GB">en-GB/plg_system_sismosflexmodules.sys.ini</language>
+		<language tag="de-DE">de-DE/plg_system_sismosflexmodules.ini</language>
+		<language tag="de-DE">de-DE/plg_system_sismosflexmodules.sys.ini</language>
+	</languages>
+	<!-- Update servers -->
+	<updateservers>
+		<server type="extension" priority="1" name="SimplySmart Update Site GitHub"><![CDATA[https://github.com/SimplySmart-IT/plg_system_sismosflexmodules/update.xml]]></server>
+	</updateservers>
+</extension>

@@ -131,7 +131,7 @@ class Sismosflexmodules extends CMSPlugin implements SubscriberInterface
 			if (!empty($additionalPositions = $modParams->get('additional_position', []))) {
 				Foreach ($additionalPositions as $index => $position) {
 					$split_pos = explode(':', $position);
-					if ((count($split_pos) === 2 && strtolower($split_pos[0]) === strtolower($template)) || (count($split_pos) === 1)) {
+					if ((count($split_pos) === 2 && strtolower($split_pos[0]) === strtolower($template) && $split_pos[1] !== $module->position) || (count($split_pos) === 1 && $split_pos[0] !== $module->position)) {
 						$newModule = clone $module;
 						$newModule->id .= '-cl' . $index;
 						$newModule->position = (count($split_pos) === 2) ? $split_pos[1] : $split_pos[0];
@@ -172,7 +172,7 @@ class Sismosflexmodules extends CMSPlugin implements SubscriberInterface
 
 		if ($name =='com_modules.module') {
 			$lang = Factory::getApplication()->getLanguage();
-			$lang->load('plg_system_sismosflexmodules', JPATH_ROOT . '/plugins/system/sismosflexmodules');
+			$lang->load('plg_system_sismosflexmodules', JPATH_ADMINISTRATOR);
 
 			FormHelper::addFieldPrefix('Joomla\\Plugin\\System\\Sismosflexmodules\\Field');
 

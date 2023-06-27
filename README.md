@@ -1,4 +1,4 @@
-<h1 align="center">SimplySmart FlexModule Plugin für Joomla</h1><h2 align="center">Martina Scholz - SimplySmart Open Source</h2>
+<h1 align="center">SimplySmart FlexModule Plugin for Joomla</h1><h2 align="center">Martina Scholz - SimplySmart Open Source</h2>
 
 <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/SimplySmart-IT/plg_system_sismosflexmodules?color=00A98F">
@@ -13,7 +13,7 @@
 <!-- Status -->
 
 <h4 align="center"> 
-	  SimplySmart FlexModule Plugin für Joomla
+	  SimplySmart FlexModule Plugin for Joomla
 </h4> 
 
 <hr>
